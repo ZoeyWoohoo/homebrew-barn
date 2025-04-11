@@ -1,8 +1,9 @@
 class GitSpaceReclaimed < Formula
   desc "Tool for analyzing storage space reclaimed by deleting images in Git repos"
   homepage "https://github.com/ZoeyWoohoo/git-space-reclaimed"
-  url "https://github.com/ZoeyWoohoo/git-space-reclaimed/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "7cf3a14ed2ae754a1a3310f5b29ea3d381e1d9eeeb628f1fb1d07968f4c9e83b"
+  url "https://github.com/ZoeyWoohoo/git-space-reclaimed/archive/refs/tags/v1.0.1.tar.gz"
+  # curl -L https://github.com/ZoeyWoohoo/git-space-reclaimed/archive/refs/tags/v1.0.1.tar.gz | shasum -a 256
+  sha256 "ecd47d24c5b6ed2e296bda85ccaa6570ff825b96d8900718dd270f59546f1c42"
   license "MIT"
   head "https://github.com/ZoeyWoohoo/git-space-reclaimed.git", branch: "main"
 
